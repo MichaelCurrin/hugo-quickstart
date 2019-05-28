@@ -38,10 +38,22 @@ cd quickstart
 
 ### Add a theme
 
+Add a theme to the config.
+
 ```bash
-git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
 $ echo 'theme = "ananke"' >> config.toml
 ```
+
+Add the theme's repo as a Git _submodule_.
+
+```bash
+$ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+```
+
+This creates a [.gitmodules](.gitmodules) file and the `themes/ananke` directory and adds them both to staging. Those can then be committed.
+
+Note that we added a subproject directory with its **own** version control, which is **not** stored by the top-level project's version control in the way that files normally are. The top-level project will keep track of which version of the submodule it needs by referencing a commit.
+
 
 ### Add a post
 
