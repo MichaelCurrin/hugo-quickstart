@@ -4,6 +4,9 @@
 This project was created based on the [Hugo quickstart guide](https://gohugo.io/getting-started/quick-start/).
 
 
+![Site preview](preview.png)
+
+
 ## How to setup a site
 
 These are the steps which were followed to set this project up. These steps can serve as a reference for your new or existing Hugo projects.
@@ -48,7 +51,7 @@ $ hugo new posts/my-first-post.md
 
 ### Run
 
-Start the server with drafts enabled.
+Start the server, with drafts enabled.
 
 ```bash
 $ hugo server -D
