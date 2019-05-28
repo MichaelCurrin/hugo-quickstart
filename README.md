@@ -1,5 +1,5 @@
 # Hugo Quickstart Sample
-> A static site skeleton based on the output of Hugo's quickstart project
+> A simple static site skeleton, based on Hugo's quickstart guide
 
 This project was created based on the [Hugo quickstart guide](https://gohugo.io/getting-started/quick-start/).
 
