@@ -1,20 +1,50 @@
 # Hugo Quickstart Sample
 > A simple static site skeleton, based on Hugo's quickstart guide
 
-This project was created based on the [Hugo quickstart guide](https://gohugo.io/getting-started/quick-start/).
+This project was created based on the Hugo quickstart guide.
 
+
+## Sample
 
 ![Site preview](preview.png)
 
 
-## How to setup a site
+## Resources
 
-These are the steps which were followed to set this project up. These steps can serve as a reference for your new or existing Hugo projects.
+- [Hugo homepage - gohugo.io](https://gohugo.io/)
+- [Quick Start](https://gohugo.io/getting-started/quick-start/) page in Hugo docs
+
+
+## Remote setup
+
+This project can be setup to build and host a static site on Netlify or Github Pages (through Github Actions), but this is not covered here.
+
+
+## Installation
+
+Clone the project.
+
+Follow the [Install Hugo](https://gohugo.io/getting-started/installing/) page.
+
+_Note: Some projects include Hugo version as a binary in a repo `bin` directory, but this needs to be done for 3 operating systems and needs to be updated manually if a newer version is needed. But it means a cloned repo that is updated will always get the exact version needed, regardless of a global version installed._
+
+
+## Run
+
+
+```sh
+$ hugo server
+```
+
+
+## How to setup a fresh project
+
+These are the steps which were followed to set this project up. These can serve as a reference for your new or existing Hugo projects.
 
 
 ### Create repo
 
-```bash
+```sh
 $ hugo new site quickstart
 ```
 ```
