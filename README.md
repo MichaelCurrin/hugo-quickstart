@@ -1,7 +1,7 @@
 # Hugo Quickstart
 > A simple static site skeleton, based on Hugo's quickstart guide
 
-This starter project was created using quickstart instructions on the Hugo website.
+This starter project was created using quickstart instructions on the Hugo website. See [Hugo resources](https://github.com/MichaelCurrin/code-resources/blob/master/resources/hugo.md) for links on starting out with Hugo and using the CLI.
 
 
 ## Sample
@@ -9,30 +9,60 @@ This starter project was created using quickstart instructions on the Hugo websi
 ![Site preview](preview.png)
 
 
-## Resources
-
-- [Hugo homepage - gohugo.io](https://gohugo.io/)
-- [Quick Start](https://gohugo.io/getting-started/quick-start/) page in Hugo docs
-
-
-## Remote setup
-
-This project can be setup to build and host a static site on Netlify or Github Pages (through Github Actions), but this is not covered here.
-
-
 ## Installation
+> How to setup this project locally
 
-Clone the project.
+### Install system dependencies
 
-Follow the [Install Hugo](https://gohugo.io/getting-started/installing/) page.
+Follow the [Install Hugo](https://gohugo.io/getting-started/installing/) doc.
 
-_Note: Some projects include Hugo version as a binary in a repo `bin` directory, but this needs to be done for 3 operating systems and needs to be updated manually if a newer version is needed. But it means a cloned repo that is updated will always get the exact version needed, regardless of a global version installed._
+_Note: The approach recommended here is download and install Hugo globally. It is a single binary so can be in your `bin` directory. Some projects include Hugo version as a binary in a repo `bin` directory, but this needs to be done for 3 operating systems and needs to be updated manually if a newer version is needed. But it means a cloned repo that is updated will always get the exact version needed, regardless of a global version installed._
+
+### Clone
+
+Clone the repo and its submodules.
+
+```sh
+$ git clone --recurse-submodules git@github.com:MichaelCurrin/hugo-quickstart.git
+```
+
+You don't have to install any dependencies, as the theme was included with the submodule above.
 
 
-## Run
+## Usage
+
+### Start dev server
 
 ```sh
 $ hugo server
+```
+
+### Build
+
+Run without arguments.
+
+```sh
+$ hugo
+```
+
+View the output in the ignored `public` directory.
+
+
+## Deploy
+> How setup and deploy on a remote server
+
+This project can be setup easily to build and host a static site on [Netlify](https://netlify.com). You just need to add a build command.
+
+You can also deploy and serve using Github Pages, but since that runs Jekyll only you'll have to use Github Actions.
+
+## Development
+
+### Update themes
+
+Update a theme to the latest version by executing the following command in the root directory of your project:
+
+```sh
+$ git submodule update --rebase --remote
 ```
 
 
