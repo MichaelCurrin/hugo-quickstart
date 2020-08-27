@@ -1,7 +1,7 @@
-# Hugo Quickstart Sample
+# Hugo Quickstart
 > A simple static site skeleton, based on Hugo's quickstart guide
 
-This project was created based on the Hugo quickstart guide.
+This starter project was created using quickstart instructions on the Hugo website.
 
 
 ## Sample
@@ -31,7 +31,6 @@ _Note: Some projects include Hugo version as a binary in a repo `bin` directory,
 
 ## Run
 
-
 ```sh
 $ hugo server
 ```
@@ -41,14 +40,13 @@ $ hugo server
 
 These are the steps which were followed to set this project up. These can serve as a reference for your new or existing Hugo projects.
 
-
 ### Create repo
 
 ```sh
-$ hugo new site quickstart
+$ hugo new site my-project
 ```
 ```
-Congratulations! Your new Hugo site is created in .../quickstart.
+Congratulations! Your new Hugo site is created in my-project.
 
 Just a few more steps and you're ready to go:
 
@@ -62,15 +60,15 @@ Just a few more steps and you're ready to go:
 Visit https://gohugo.io/ for quickstart guide and full documentation.
 ```
 
-```bash
-cd quickstart
+```sh
+$ cd my-project
 ```
 
 ### Add a theme
 
 Add a theme to the config.
 
-```bash
+```sh
 $ echo 'theme = "ananke"' >> config.toml
 ```
 
@@ -84,7 +82,6 @@ This creates a [.gitmodules](.gitmodules) file and the `themes/ananke` directory
 
 Note that we added a subproject directory with its **own** version control, which is **not** stored by the top-level project's version control in the way that files normally are. The top-level project will keep track of which version of the submodule it needs by referencing a commit.
 
-
 ### Add a post
 
 ```bash
@@ -93,8 +90,13 @@ $ hugo new posts/my-first-post.md
 
 ### Run
 
-Start the server, with drafts enabled.
+Start the server, with _drafts_ enabled.
 
 ```bash
 $ hugo server -D
 ```
+
+
+## License
+
+Released under [MIT](/LICENSE).
