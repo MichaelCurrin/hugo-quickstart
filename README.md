@@ -53,7 +53,8 @@ View the output in the ignored `public` directory.
 
 This project can be setup easily to build and host a static site on [Netlify](https://netlify.com). You just need to add a build command.
 
-You can also deploy and serve using Github Pages, but since that runs Jekyll only you'll have to use Github Actions.
+You can also deploy and serve using [Github Pages](https://pages.github.com/), but since that runs Jekyll only you'll have to use [Github Actions](https://github.com/actions) to deploy it.
+
 
 ## Development
 
