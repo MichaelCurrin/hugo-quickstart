@@ -1,7 +1,7 @@
 # Hugo Quickstart
-> A simple static site skeleton, based on Hugo's quickstart guide
+> Starter template for a Hugo static site
 
-This starter project was created using quickstart instructions on the Hugo website. See [Hugo resources](https://github.com/MichaelCurrin/code-resources/blob/master/resources/hugo.md) for links on starting out with Hugo and using the CLI.
+This project was created using quickstart instructions on the Hugo website. See [Hugo resources](https://github.com/MichaelCurrin/code-resources/blob/master/resources/hugo.md) for links on starting out with Hugo and using the CLI.
 
 
 ## Sample
