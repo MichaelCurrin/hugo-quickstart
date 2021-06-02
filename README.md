@@ -1,12 +1,29 @@
 # Hugo Quickstart
 > Starter template for a Hugo static site
 
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/hugo-quickstart?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/hugo-quickstart/releases/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+
+[![Made with Hugo](https://img.shields.io/badge/Hugo-0.X-blue?logo=hugo&logoColor=white)](https://gohugo.io/)
+
+
 This project was created using quickstart instructions on the Hugo website. See [Hugo resources](https://github.com/MichaelCurrin/code-resources/blob/master/resources/hugo.md) for links on starting out with Hugo and using the CLI.
 
 
-## Sample
+## Preview
 
-![Site preview](preview.png)
+<div align="center">
+    <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="400" />
+</div>
+
+
+## Use this project
+
+<div align="center">
+
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/hugo-quickstart/generate)
+
+</div>
 
 
 ## Installation
@@ -130,4 +147,4 @@ $ hugo server -D
 
 ## License
 
-Released under [MIT](/LICENSE).
+Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).
